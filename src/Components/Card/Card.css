@@ -1,0 +1,41 @@
+.card {
+    max-width: 300px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.card img {
+    object-fit: cover;
+    max-height: 400px;
+}
+
+.card h2, .card p {
+    margin: 5px 20px;
+}
+
+.card h2 {
+    font-size: 24px;
+}
+
+.card p {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.card a {
+    margin: 15px 20px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 0.5px solid #564E58;
+    background-color: rgba(255, 255, 255, 0.67);
+    font-size: 15px;
+    font-weight: 600;
+    color: #564E58;
+    text-align: center;
+    text-decoration: none;
+}
